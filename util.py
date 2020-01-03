@@ -11,7 +11,9 @@ import requests
 import zipfile
 import numpy as np
 import pandas as pd
-from scipy.misc import imread, imsave, imresize
+#from scipy.misc import imread, imsave, imresize
+#from scipy.misc import imsave, imresize
+from imageio import imread
 from glob import glob
 from tqdm import tqdm
 from sklearn.utils import shuffle
